@@ -1,4 +1,7 @@
 ![image](https://github.com/Nikki29o/Stroke-Jellyfish/blob/main/img/085ae55398214d56d8a507473adb0e5.png)
+
+
+
 This is a fork of Mr. Doob's Harmony drawing tool, simplified
 and modified to be a sandbox framework for students of digital
 drawing.
