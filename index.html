@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <title>Digital Drawing</title>
+    <meta charset="utf-8"/>
+    <meta name="description" content="Computer Graphics: Digital Drawing"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+    <style type="text/css">
+      *
+      {
+      color: #444;
+      font-family: Monospace;
+      font-size: 12px;
+      }
+
+      body
+      {
+      margin: 0px;
+      overflow: hidden;
+      }
+
+      select
+      {
+      text-transform: uppercase;
+      font-size: 11px;
+      text-align: center;
+      }
+
+      hr
+      {
+      border: 0;
+      height: 1px;
+      background-color: #ccc;
+      margin: 20px 0px;
+      }
+
+      .gui
+      {
+      color: #ccc;
+      background-color: #fff;
+      border-bottom: 1px solid #ddd;
+      padding: 5px 10px;
+      text-align: center;
+      text-transform: uppercase;
+      line-height: 18px;
+      cursor: default;
+      }
+
+      .button
+      {
+      padding: 2px;
+      cursor: pointer;
+      }
+
+      .key
+      {
+      padding: 0px 8px;
+      margin-left: 1px;
+      background-color: #eee;
+      }
+    </style>
+  </head>
+  <body>
+<!--    Add new brushes here and insert corresponding entries in BRUSHES of main.js-->
+    <script type="text/javascript" src="js/brushes/simple.js"></script>
+    <script type="text/javascript" src="js/brushes/sketchy.js"></script>
+    <script type="text/javascript" src="js/brushes/yiran_jellyfish.js"></script>
+<!--    Add new canvas papers here and insert corresponding entries in PAPERS of main.js-->
+    <script type="text/javascript" src="js/papers/color.js"></script>
+<!--    <script type="text/javascript" src="js/papers/jpeg.js"></script>-->
+    <script type="text/javascript" src="js/papers/sandy.js"></script>
+    <script type="text/javascript" src="js/papers/sea.js"></script>
+<!--    Following scripts define the user interface-->
+    <script type="text/javascript" src="js/colorselector.js"></script>
+    
+    <script type="text/javascript" src="js/menu.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
